@@ -2,22 +2,39 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>WEB</title>
+  <title> WEB </title>
+  <meta charset=”utf-8”>
+  <script src="master.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-<h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html">HTML</a></li><!--1.html-->
-  <li><a href="2.html">CSS</a></li><!--2.html-->
-  <li><a href="3.html">JavaScript</a></li><!--3.html-->
-</ol>
+<body style="background-color: white; color: black;">
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
 
-<h2>WEB 이란?</h2>
-<img alt="html image" height="100%" src="web.png">
-<p><a href="https://en.wikipedia.org/wiki/World_Wide_Web">The World Wide Web</a> (WWW), commonly known as the Web, is an <strong>information system enabling documents</strong> and other web resources to be accessed over the Internet.</p>
-<p>Documents and downloadable media are made available to the network through web servers and can be accessed by programs such as web browsers. Servers and resources on the World Wide Web are identified and located through character strings called uniform resource locators (URLs). The original and still very common document type is a web page formatted in Hypertext Markup Language (HTML). This markup language supports plain text, images, embedded video and audio contents, and scripts (short programs) that implement complex user interaction. The HTML language also supports hyperlinks (embedded URLs) which provide immediate access to other web resources. Web navigation, or web surfing, is the common practice of following such hyperlinks across multiple websites. Web applications are web pages that function as application software. The information in the Web is transferred across the Internet using the Hypertext Transfer Protocol (HTTP).</p>
-<p>Multiple web resources with a common theme and usually a common domain name make up a website. A single web server may provide multiple websites, while some websites, especially the most popular ones, may be provided by multiple servers. Website content is provided by a myriad of companies, organizations, government agencies, and individual users; and comprises an enormous mass of educational, entertainment, commercial, and government information.</p>
+    <div id="article">
+      <input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+      <h2>WEB</h2>
+      <p>
+        The World Wide Web (WWW), commonly known as the Web, is an information system enabling documents and other web
+        resources to be accessed over the Internet.
+      </p>
+      <img
+        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+        alt="web image" width="20%">
+      <p>
+        Documents and downloadable media are made available to the network through web servers and can be accessed by
+        programs such as web browsers. Servers and resources on the World Wide Web are identified and located through
+        character strings called uniform resource locators (URLs).
+      </p>
+      <input type="button" value="night" onclick="nightDayHandler(this)">
+    </div>
+  </div>
 </body>
+
 </html>

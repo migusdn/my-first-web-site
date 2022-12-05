@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <title>WEB</title>
+    <title> WEB </title>
+    <meta charset=”utf-8”>
+    <link href="resources/master.css" rel="stylesheet">
 </head>
-<body>
-<h1><a href="index.html">WEB</a></h1>
-<ol>
-    <li><a href="1.html">HTML</a></li><!--1.html-->
-    <li><a href="2.html">CSS</a></li><!--2.html-->
-    <li><a href="3.html">JavaScript</a></li><!--3.html-->
-</ol>
-
-<h2>CSS 이란?</h2>
-<img alt="css image" width="100%" src="css.jpg">
-<p>
-    Cascading Style Sheets (CSS) is <strong>a style sheet language</strong> used for describing the presentation of a
-    document written in
-    a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone
-    technology of the World Wide Web, alongside HTML and JavaScript.[2]
-</p>
-<p>
-    <a href="https://en.wikipedia.org/wiki/CSS">CSS</a> is designed to enable the separation of presentation and
-    content, including layout, colors, and
-    fonts.[3] This
-    separation can improve content accessibility; provide more flexibility and control in the specification of
-    presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a
-    separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to
-    be cached to improve the page load speed between the pages that share the file and its formatting.
-</p>
-<p>
-    Separation of formatting and content also makes it feasible to present the same markup page in different styles for
-    different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and
-    on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile
-    device.[4]
-</p>
+<body day>
+    <h1><a href="index.html">WEB</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li id="current"><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+        <div>
+            <input class="toggle" type="button" value="day"/>
+            <p>
+            <h2>CSS</h2> Cascading Style Sheets (<a href="https://en.wikipedia.org/wiki/CSS">CSS</a>) is a style sheet
+            language used for
+            describing the presentation of a
+            document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or
+            XHTML).
+            CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+            </p>
+            <img alt="css image" src="https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" width="40%">
+            <p>
+                <span>CSS</span> is designed to enable the separation of presentation and content, including layout,
+                colors,
+                and
+                fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the
+                specification of presentation characteristics; enable multiple web pages to share formatting by
+                specifying
+                the
+                relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content;
+                and
+                enable the .css file to be cached to improve the page
+                load speed between the pages that share the file and its formatting.
+            </p>
+            <input class="toggle" type="button" value="day"/>
+        </div>
+    </div>
+    <script src="resources/master.js"></script>
 </body>
 </html>
